@@ -1,1 +1,1 @@
-console.log('ola, mundo');
+console.log(dados[0].titulo);
