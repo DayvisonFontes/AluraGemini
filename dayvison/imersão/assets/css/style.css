@@ -163,5 +163,7 @@ footer {
 
     footer {
         font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
+        position: absolute; /* Posiciona o rodapé */
+        bottom: 0; /* Alinha ao fundo da página */
     }
 }

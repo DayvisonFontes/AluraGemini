@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,22 +12,10 @@
     </header>
     <main>
         <section>
-            <input type="text" id="atletas" placeholder="Digite a série/filme que quer encontrar.">
-            <button>PESQUISAR</button>
+            <input type="text" id="filmes-series" placeholder="Digite a série/filme que quer encontrar.">
+            <button onclick="pesquisar()">PESQUISAR</button>
         </section>
-        <section class="resultados-pesquisa">
-            <div class="item-resultado">
-                <h2><a href="https://pt.wikipedia.org/wiki/Stranger_Things" target="_blank" rel="external">Stranger things</a></h2>
-                <p class="descricao-meta">Stranger Things é uma série de sucesso que nos leva aos anos 80, para a pequena cidade de Hawkins, Indiana. Com uma trama que mistura elementos de ficção científica e terror, a série acompanha um grupo de amigos que, após o desaparecimento de um colega, se deparam com experimentos secretos e criaturas sobrenaturais. A série conquistou o público com sua nostalgia, mistério e personagens cativantes, tornando-se um fenômeno da cultura pop.</p>
-            </div>
-            <div class="item-resultado">
-                <h2><a href="https://pt.wikipedia.org/wiki/Vikings_(s%C3%A9rie_de_televis%C3%A3o)" target="_blank" rel="external">Vikings</a></h2>
-                <p class="descricao-meta">Vikings é uma série de televisão histórica e dramática que retrata as aventuras e batalhas dos vikings, exploradores nórdicos que dominaram os mares da Europa durante a Idade Média. A série se concentra na vida de Ragnar Lothbrok, um ambicioso guerreiro que se torna um dos líderes mais poderosos de seu povo, liderando expedições para saquear e colonizar terras distantes. A trama é repleta de ação, drama familiar, intrigas políticas e elementos sobrenaturais, explorando a mitologia nórdica e a cultura viking.</p>
-            </div>
-            <div class="item-resultado">
-                <h2><a href="https://pt.wikipedia.org/wiki/Interstellar" target="_blank" rel="external">Interestelar</a></h2>
-                <p class="descricao-meta">Interstellar é um filme de ficção científica épico que explora os limites da ciência e da exploração espacial. Em um futuro distópico, a humanidade está à beira da extinção devido a mudanças climáticas catastróficas. Um grupo de astronautas embarca em uma missão ousada para encontrar um novo lar para a humanidade, viajando através de um buraco de minhoca para explorar outros planetas em uma galáxia distante. O filme aborda temas como a natureza do tempo, a relação entre pais e filhos, e a busca pela sobrevivência da espécie humana.</p>
-            </div>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
         </section>
     </main>
     <footer>
