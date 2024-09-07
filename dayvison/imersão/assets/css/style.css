@@ -68,6 +68,7 @@ section button:hover {
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 0.6rem; /* Borda arredondada */
+    color: white;
 }
 
 /* Estiliza cada item de resultado */
