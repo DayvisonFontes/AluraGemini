@@ -7,10 +7,14 @@ const conexao = await conectarAoBanco(process.env.STRING_CONNECT);
 export async function getTodosPosts() {
     // Seleciona o banco de dados 'imersao-instabyte'
     const db = conexao.db('imersao-instabyte');
-
     // Seleciona a coleção 'posts'
     const colecao = db.collection('posts');
-
     // Encontra todos os posts e os converte em um array
     return colecao.find().toArray();
+};
+
+export async function criarPost(novoPost) {
+    const db = conexao.db('imersao-instabyte');
+    const colecao = db.collection('posts');
+    return colecao.insertOne(novoPost);
 };
