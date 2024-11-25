@@ -1,7 +1,6 @@
 {
-  "name": "",
+  "name": "imersao_backend",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "type": "module",
   "license": "AGPL-version-3.0",
@@ -17,11 +16,7 @@
   },
   "bugs": "",
   "keywords": [],
-  "author": {
-    "name": "",
-    "email": "",
-    "url": ""
-  },
+  "author": "",
   "contributors": [],
   "scripts": {
     "dev": "",
@@ -29,8 +24,12 @@
     "start": "node --watch --env-file=.env server.js"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "express": "^4.21.1",
-    "mongodb": "^6.10.0",
+    "mongodb": "^6.11.0",
     "multer": "^1.4.5-lts.1"
-  }
+  },
+  "description": ""
 }
